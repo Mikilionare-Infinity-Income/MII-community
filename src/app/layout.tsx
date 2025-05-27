@@ -15,11 +15,20 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Mikilionaire Infinity Income | Private Investment Company Zimbabwe",
+  title: "Mikilionaire Infinity Income ",
   description:
     "Mikilionaire Infinity Income is a private investment firm based in Zimbabwe. We invest in real estate, private equity, and high-growth opportunities with a long-term, strategic mindset.",
   keywords: [
     "Mikilionaire",
+    "Mikilionaire Infinity Income",
+    "private investment firm",
+    "Zimbabwe investment",
+    "real estate investment",
+    "private equity Zimbabwe",
+    "long-term investments",
+    "strategic investments",
+    "Zimbabwe real estate",
+    "private investments",
     "investment Zimbabwe",
     "real estate Harare",
     "private equity firm",
