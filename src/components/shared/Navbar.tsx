@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import { Button } from "../ui/button";
 
 // Navigation links
 const links = [
@@ -46,12 +47,11 @@ function DesktopNav() {
             </div>
 
             {/* Right: CTA */}
-            <Link
-                href="/signup"
-                className="bg-black text-white px-4 py-2 rounded-md text-sm font-medium hover:opacity-90 transition"
-            >
-                Sign Up
-            </Link>
+            <Button asChild variant="default" className="hidden md:inline-flex">
+                <Link href="/signup" className="text-sm font-medium text-white">
+                    Sign Up
+                </Link>
+            </Button>
         </div>
     );
 }
