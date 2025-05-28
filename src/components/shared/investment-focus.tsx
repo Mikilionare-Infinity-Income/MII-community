@@ -97,10 +97,10 @@ export function InvestmentFocus() {
                             }}
                             viewport={{ once: true }}
                         >
-                            <Card className={`h-full overflow-hidden border-0 shadow-sm transition-all hover:shadow-md ${item.future ? 'opacity-80 hover:opacity-100' : ''}`}>
+                            <Card className={`h-full overflow-hidden border-0 shadow-sm transition-all rounded-lg hover:shadow-md ${item.future ? 'opacity-80 hover:opacity-100' : ''}`}>
                                 <div className="relative h-48 bg-gray-100">
                                     <div
-                                        className="absolute inset-0 bg-cover bg-center"
+                                        className="absolute inset-0 bg-cover bg-center rounded-lg"
                                         style={{ backgroundImage: `url('${item.image}')` }}
                                     />
                                     <span className={`absolute top-4 right-4 text-xs font-medium px-2 py-1 rounded-full ${item.badge === 'Current Focus' ? 'bg-[#0B1D26] text-white' : 'bg-transparent border border-[#0B1D26] text-[#0B1D26]'}`}>
