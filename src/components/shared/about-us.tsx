@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 export function AboutPreview() {
     return (
-        <section className="w-full py-20 bg-background">
+        <section className="w-full py-20 bg-background flex flex-col justify-center items-center">
             <div className="container px-4 md:px-6">
                 {/* Section Header */}
                 <motion.div
