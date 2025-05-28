@@ -1,3 +1,4 @@
+import { AboutPreview } from "@/components/shared/about-us"
 import Header from "@/components/shared/Header"
 import Navbar from "@/components/shared/Navbar"
 
@@ -6,6 +7,7 @@ function Home() {
         <main>
             <Navbar />
             <Header />
+            <AboutPreview />
         </main>
     )
 }
