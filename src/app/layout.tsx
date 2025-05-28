@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     siteName: "Mikilionaire Infinity Income",
     images: [
       {
-        url: "/og-image.jpg", // Update with your actual OG image path
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "Mikilionaire Infinity Income – Private Investments Zimbabwe",
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     title: "Mikilionaire Infinity Income",
     description:
       "Strategic capital investments in Zimbabwe and beyond – real estate, equity, and sustainable growth.",
-    images: ["/og-image.jpg"], // Update this too
+    images: ["/og-image.png"],
   },
 };
 
