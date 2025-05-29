@@ -3,6 +3,7 @@ import Header from "@/components/shared/Header"
 import { InvestmentFocus } from "@/components/shared/investment-focus"
 import Navbar from "@/components/shared/Navbar"
 import { OurApproach } from "@/components/shared/our-approach"
+import { VisionQuote } from "@/components/shared/vision-quote"
 import { WhyChooseUs } from "@/components/shared/why-choose-us"
 
 function Home() {
@@ -14,6 +15,7 @@ function Home() {
             <OurApproach />
             <InvestmentFocus />
             <WhyChooseUs />
+            <VisionQuote />
         </main>
     )
 }
