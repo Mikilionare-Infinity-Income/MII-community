@@ -1,10 +1,10 @@
-import { AboutPreview } from "@/components/shared/about-us"
-import { ContactSection } from "@/components/shared/contact-section"
-import Header from "@/components/shared/Header"
-import { InvestmentFocus } from "@/components/shared/investment-focus"
-import { OurApproach } from "@/components/shared/our-approach"
-import { VisionQuote } from "@/components/shared/vision-quote"
-import { WhyChooseUs } from "@/components/shared/why-choose-us"
+import { AboutPreview } from "@/components/pages/home/about-us"
+import { ContactSection } from "@/components/pages/home/contact-section"
+import Header from "@/components/pages/home/Header"
+import { InvestmentFocus } from "@/components/pages/home/investment-focus"
+import { OurApproach } from "@/components/pages/home/our-approach"
+import { VisionQuote } from "@/components/pages/home/vision-quote"
+import { WhyChooseUs } from "@/components/pages/home/why-choose-us"
 
 function Home() {
     return (
