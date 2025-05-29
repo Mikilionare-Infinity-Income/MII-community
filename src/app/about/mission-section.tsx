@@ -1,8 +1,8 @@
 export function MissionSection() {
     return (
-        <section className="w-full py-20 bg-white">
-            <div className="container px-4 md:px-6">
-                <div className="max-w-4xl mx-auto">
+        <section className="w-full py-20 flex flex-col justify-center items-center">
+            <div className="container px-4 md:px-6 w-full">
+                <div className="mx-auto w-full flex flex-col justify-center items-center">
                     <h2 className="text-3xl font-bold text-[#0B1D26] mb-8 [font-family:var(--font-playfair)]">
                         Our Mission
                     </h2>
@@ -18,4 +18,4 @@ export function MissionSection() {
             </div>
         </section>
     );
-  }
+}

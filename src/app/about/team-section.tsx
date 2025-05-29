@@ -20,8 +20,7 @@ const teamMembers: TeamMember[] = [
         title: 'Chief Executive Officer',
         specialization: 'Investment Strategy',
         image: '/images/team/mike.jpg',
-        bio: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam assumenda numquam deleniti odio repellat cupiditate ipsum et adipisci sed expedita ut eligendi, consectetur cumque. Eligendi reiciendis eius deleniti non voluptates.
-        Cum tenetur id ex consequatur quaerat nostrum, doloremque, recusandae possimus quos libero quo, minima eos autem aut non accusamus voluptatem! Numquam suscipit illum id deleniti ex exercitationem at officia aliquam!`
+        bio: `Mike is an experienced strategist...`,
     },
     {
         id: 2,
@@ -29,9 +28,9 @@ const teamMembers: TeamMember[] = [
         title: 'Chief Technology Officer & Chief Operations Officer',
         specialization: 'Technology & Operations',
         image: '/images/team/kin.jpg',
-        bio: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam assumenda numquam deleniti odio repellat cupiditate ipsum et adipisci sed expedita ut eligendi, consectetur cumque. Eligendi reiciendis eius deleniti non voluptates.
-        Cum tenetur id ex consequatur quaerat nostrum, doloremque, recusandae possimus quos libero quo, minima eos autem aut non accusamus voluptatem! Numquam suscipit illum id deleniti ex exercitationem at officia aliquam!`
-    }
+        bio: `Kin leads technology and operations...`,
+    },
+    // You can add more members here
 ];
 
 export function TeamSection() {
@@ -39,7 +38,7 @@ export function TeamSection() {
     const [selectedMember, setSelectedMember] = useState<TeamMember | null>(null);
 
     return (
-        <section className="w-full py-20 bg-gradient-to-br from-[#0B1D26] to-[#1A3A4B]">
+        <section className="w-full py-20 bg-gradient-to-br from-[#0B1D26] to-[#1A3A4B] overflow-hidden flex flex-col justify-center items-center">
             <div className="container px-4 md:px-6">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl font-bold text-white mb-4 [font-family:var(--font-playfair)]">
@@ -50,33 +49,36 @@ export function TeamSection() {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {teamMembers.map((member) => (
-                        <div
-                            key={member.id}
-                            onClick={() => {
-                                setSelectedMember(member);
-                                setIsOpen(true);
-                            }}
-                            className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 cursor-pointer hover:border-[#CBAF75]/30 transition-all group"
-                        >
-                            <div className="aspect-square w-full relative rounded-lg overflow-hidden mb-4">
-                                <img
-                                    src={member.image}
-                                    alt={member.name}
-                                    className="w-full h-full object-cover"
-                                />
+                {/* Scrolling Carousel */}
+                <div className="relative w-full overflow-hidden">
+                    <div className="flex animate-slide space-x-8 w-max">
+                        {[...teamMembers, ...teamMembers].map((member, index) => (
+                            <div
+                                key={`${member.id}-${index}`}
+                                onClick={() => {
+                                    setSelectedMember(member);
+                                    setIsOpen(true);
+                                }}
+                                className="w-80 shrink-0 bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 cursor-pointer hover:border-[#CBAF75]/30 transition-all group"
+                            >
+                                <div className="aspect-square w-full relative rounded-lg overflow-hidden mb-4">
+                                    <img
+                                        src={member.image}
+                                        alt={member.name}
+                                        className="w-full h-full object-cover"
+                                    />
+                                </div>
+                                <h3 className="text-xl font-semibold text-white group-hover:text-[#CBAF75] transition-colors">
+                                    {member.name}
+                                </h3>
+                                <p className="text-[#CBAF75]">{member.title}</p>
+                                <p className="text-white/80">{member.specialization}</p>
                             </div>
-                            <h3 className="text-xl font-semibold text-white group-hover:text-[#CBAF75] transition-colors">
-                                {member.name}
-                            </h3>
-                            <p className="text-[#CBAF75]">{member.title}</p>
-                            <p className="text-white/80">{member.specialization}</p>
-                        </div>
-                    ))}
+                        ))}
+                    </div>
                 </div>
 
-                {/* Popover Dialog */}
+                {/* Modal Dialog */}
                 <Dialog
                     open={isOpen}
                     onClose={() => setIsOpen(false)}
@@ -127,6 +129,21 @@ export function TeamSection() {
                     </div>
                 </Dialog>
             </div>
+
+            {/* Slide Animation Styles */}
+            <style jsx>{`
+        @keyframes slide {
+          0% {
+            transform: translateX(0%);
+          }
+          100% {
+            transform: translateX(-50%);
+          }
+        }
+        .animate-slide {
+          animation: slide 30s linear infinite;
+        }
+      `}</style>
         </section>
     );
 }
