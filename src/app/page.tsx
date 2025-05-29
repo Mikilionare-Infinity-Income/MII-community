@@ -1,4 +1,5 @@
 import { AboutPreview } from "@/components/shared/about-us"
+import { ContactSection } from "@/components/shared/contact-section"
 import Header from "@/components/shared/Header"
 import { InvestmentFocus } from "@/components/shared/investment-focus"
 import Navbar from "@/components/shared/Navbar"
@@ -16,6 +17,7 @@ function Home() {
             <InvestmentFocus />
             <WhyChooseUs />
             <VisionQuote />
+            <ContactSection />
         </main>
     )
 }
