@@ -16,13 +16,22 @@ interface TeamMember {
 const teamMembers: TeamMember[] = [
     {
         id: 1,
-        name: 'Tendai Moyo',
+        name: 'Mike Tafara Chikono',
         title: 'Chief Executive Officer',
         specialization: 'Investment Strategy',
-        image: '/images/team/tendai.webp',
-        bio: 'With over 15 years in private equity across Africa, Tendai leads our investment strategy with a focus on long-term value creation. His expertise in Zimbabwean market dynamics has been instrumental in identifying high-growth opportunities.'
+        image: '/images/team/mike.jpg',
+        bio: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam assumenda numquam deleniti odio repellat cupiditate ipsum et adipisci sed expedita ut eligendi, consectetur cumque. Eligendi reiciendis eius deleniti non voluptates.
+        Cum tenetur id ex consequatur quaerat nostrum, doloremque, recusandae possimus quos libero quo, minima eos autem aut non accusamus voluptatem! Numquam suscipit illum id deleniti ex exercitationem at officia aliquam!`
     },
-    // Add other team members...
+    {
+        id: 2,
+        name: 'Kin Leon Zinzombe',
+        title: 'Chief Technology Officer & Chief Operations Officer',
+        specialization: 'Technology & Operations',
+        image: '/images/team/kin.jpg',
+        bio: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam assumenda numquam deleniti odio repellat cupiditate ipsum et adipisci sed expedita ut eligendi, consectetur cumque. Eligendi reiciendis eius deleniti non voluptates.
+        Cum tenetur id ex consequatur quaerat nostrum, doloremque, recusandae possimus quos libero quo, minima eos autem aut non accusamus voluptatem! Numquam suscipit illum id deleniti ex exercitationem at officia aliquam!`
+    }
 ];
 
 export function TeamSection() {
