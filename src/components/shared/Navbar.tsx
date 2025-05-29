@@ -63,7 +63,7 @@ function MobileNav() {
         <div className="flex md:hidden w-full justify-between items-center">
             {/* Left: Brand */}
             <Link href="/" className="text-base font-semibold font-serif">
-                Mikilionaire
+                Mikilionaire Infinity Income
             </Link>
 
             {/* Right: Toggle Button */}
