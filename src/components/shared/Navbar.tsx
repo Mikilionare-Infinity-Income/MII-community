@@ -8,6 +8,7 @@ import { Button } from "../ui/button";
 
 // Navigation links
 const links = [
+    { name: "Home", href: "/" },
     { name: "About", href: "/about" },
     { name: "Portfolio", href: "/portfolio" },
     { name: "Contact", href: "/contact" },
