@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export function ContactHero() {
     return (
-        <section className="w-full py-32 bg-gradient-to-br from-[#0B1D26] to-[#1A3A4B] relative overflow-hidden">
+        <section className="w-full py-32 bg-gradient-to-br from-[#0B1D26] to-[#1A3A4B] relative overflow-hidden flex flex-col items-center justify-center text-center">
             {/* Decorative elements */}
             <div className="absolute inset-0 opacity-10">
                 <div className="absolute top-20 left-20 w-40 h-40 rounded-full bg-[#CBAF75] mix-blend-overlay blur-xl"></div>

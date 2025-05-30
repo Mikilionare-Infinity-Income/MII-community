@@ -58,7 +58,7 @@ export function ContactFormSection() {
 
     if (isSubmitted) {
         return (
-            <section className="w-full py-20 bg-gradient-to-br from-[#0B1D26] to-[#1A3A4B]">
+            <section className="w-full py-20 bg-gradient-to-br from-[#0B1D26] to-[#1A3A4B] flex flex-col items-center justify-center">
                 <div className="container px-4 md:px-6 text-center">
                     <h2 className="text-3xl font-bold text-white mb-4">Thank You!</h2>
                     <p className="text-xl text-[#CBAF75]/90 max-w-2xl mx-auto mb-8">
@@ -76,7 +76,7 @@ export function ContactFormSection() {
     }
 
     return (
-        <section className="w-full py-20 bg-gradient-to-br from-[#0B1D26] to-[#1A3A4B]">
+        <section className="w-full py-20 bg-gradient-to-br from-[#0B1D26] to-[#1A3A4B] flex flex-col items-center justify-center">
             <div className="container px-4 md:px-6">
                 <div className="max-w-2xl mx-auto bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-8 md:p-12">
                     <h2 className="text-2xl font-bold text-white mb-6 [font-family:var(--font-playfair)]">
