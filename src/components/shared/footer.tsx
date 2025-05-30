@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Facebook, Twitter, Instagram, Linkedin, Youtube } from 'lucide-react';
+import { Facebook, Twitter, Instagram, Linkedin, Youtube, X } from 'lucide-react';
 
 export function Footer() {
     return (
@@ -19,18 +19,18 @@ export function Footer() {
                     {/* Social Links */}
                     <div className="flex space-x-6">
                         <Link
-                            href="https://facebook.com/mikilionaire"
+                            href="https://www.facebook.com/profile.php?id=61572613892570"
                             className="text-[#0B1D26] hover:text-[#CBAF75] transition-colors"
                             aria-label="Facebook"
                         >
                             <Facebook className="h-6 w-6" />
                         </Link>
                         <Link
-                            href="https://twitter.com/mikilionaire"
+                            href="https://x.com/mikilionaire"
                             className="text-[#0B1D26] hover:text-[#CBAF75] transition-colors"
-                            aria-label="Twitter"
+                            aria-label="X"
                         >
-                            <Twitter className="h-6 w-6" />
+                            <X className="h-6 w-6" />
                         </Link>
                         <Link
                             href="https://instagram.com/mikilionaire"
