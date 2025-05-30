@@ -30,7 +30,30 @@ const teamMembers: TeamMember[] = [
         image: '/images/team/kin.jpg',
         bio: `Kin leads technology and operations...`,
     },
-    // You can add more members here
+    {
+        id: 3,
+        name: 'Clint Tadiwanashe Muchabveyo',
+        title: 'Project Manager',
+        specialization: 'Project Management',
+        image: '/images/team/clint.jpg',
+        bio: `A seasoned project manager currently studying Civil Engineering, Clint brings a wealth of experience in managing complex projects. His expertise lies in coordinating teams, ensuring timely delivery, and maintaining high standards of quality. With a keen eye for detail and a proactive approach, Clint is instrumental in driving our projects to successful completion.`,
+    },
+    {
+        id: 4,
+        name: 'Lorem ipsum dolor',
+        title: 'Chief Financial Officer',
+        specialization: 'Financial Management',
+        image: '/images/team/lorem.jpg',
+        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    },
+    {
+        id: 5,
+        name: 'Emmanuel Da Graça Joaquim Dique',
+        title: 'Head of Education & Training',
+        specialization: 'Education & Training',
+        image: '/images/team/emmanuel.jpg',
+        bio: `Emmanuel is a dedicated educator with a passion for empowering individuals through knowledge. As the Head of Education & Training, he designs and implements comprehensive training programs that equip our team and clients with the skills needed to excel in the investment landscape. His commitment to continuous learning ensures that we stay ahead in a rapidly evolving market.`,
+    },
 ];
 
 export function TeamSection() {

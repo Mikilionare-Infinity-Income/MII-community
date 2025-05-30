@@ -1,8 +1,8 @@
-import { HeroSection } from "./hero-section";
-import { LeadershipSection } from "./leadership-section";
-import { MissionSection } from "./mission-section";
-import { TeamSection } from "./team-section";
-import { ValuesSection } from "./values-section";
+import { HeroSection } from "../../components/pages/about/hero-section";
+import { LeadershipSection } from "../../components/pages/about/leadership-section";
+import { MissionSection } from "../../components/pages/about/mission-section";
+import { TeamSection } from "../../components/pages/about/team-section";
+import { ValuesSection } from "../../components/pages/about/values-section";
 
 export default function AboutPage() {
     return (
