@@ -8,7 +8,7 @@ const properties = [
         location: "CBD, Kuwadzana, Harare",
         stage: "Planning Phase",
         description: "Affordable housing solutions for urban workers and students.",
-        image: "/images/portfolio/boarding-house.webp"
+        image: "/images/assets/boarding-house.webp"
     }
 ];
 
