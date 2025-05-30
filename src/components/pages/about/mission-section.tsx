@@ -6,7 +6,7 @@ export function MissionSection() {
                     <h2 className="text-3xl font-bold text-[#0B1D26] mb-8 [font-family:var(--font-playfair)]">
                         Our Mission
                     </h2>
-                    <div className="prose text-[#0B1D26]/90">
+                    <div className="prose text-[#0B1D26]/90 text-center md:max-w-5xl">
                         <p>
                             Mikilionaire Infinity Income was founded in 2025 with a singular vision: to revolutionize wealth creation in Zimbabwe by identifying and capitalizing on high-growth investment opportunities across key sectors.
                         </p>
