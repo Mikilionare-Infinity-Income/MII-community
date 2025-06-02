@@ -20,7 +20,7 @@ const teamMembers: TeamMember[] = [
         title: 'Chief Executive Officer',
         specialization: 'Investment Strategy',
         image: '/images/team/mike.jpg',
-        bio: `Mike is an experienced strategist...`,
+        bio: `Mike is the visionary behind our firm, driving our mission to empower individuals through investment education and opportunities. With a background in finance and a passion for technology, he leads our strategic direction and ensures we remain at the forefront of the investment landscape. Mike's leadership is characterized by his commitment to innovation, integrity, and excellence.`,
     },
     {
         id: 2,
@@ -28,24 +28,23 @@ const teamMembers: TeamMember[] = [
         title: 'Chief Technology Officer & Chief Operations Officer',
         specialization: 'Technology & Operations',
         image: '/images/team/kin.jpg',
-        bio: `Kin leads technology and operations...`,
+        bio: `Kin, a seasoned software engineer with a passion for technology`,
     },
     {
         id: 3,
         name: 'Clint Tadiwanashe Muchabveyo',
         title: 'Project Manager',
         specialization: 'Project Management',
-        image: '/images/team/clint.jpg',
+        image: '/images/team/clint.jpeg',
         bio: `A seasoned project manager currently studying Civil Engineering, Clint brings a wealth of experience in managing complex projects. His expertise lies in coordinating teams, ensuring timely delivery, and maintaining high standards of quality. With a keen eye for detail and a proactive approach, Clint is instrumental in driving our projects to successful completion.`,
     },
     {
         id: 4,
-        name: 'Lorem ipsum dolor',
+        name: 'Morris',
         title: 'Chief Financial Officer',
         specialization: 'Financial Management',
-        image: '/images/team/lorem.jpg',
-        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    },
+        image: '/images/team/morris.jpg',
+        bio: `Morris is a financial expert with a strong background in investment management. As the Chief Financial Officer, he oversees our financial operations, ensuring that we maintain a healthy balance sheet and make sound investment decisions. His analytical skills and strategic thinking are key to our financial success, allowing us to navigate the complexities of the investment landscape with confidence.`,},
     {
         id: 5,
         name: 'Emmanuel Da Graça Joaquim Dique',
@@ -53,6 +52,14 @@ const teamMembers: TeamMember[] = [
         specialization: 'Education & Training',
         image: '/images/team/emmanuel.jpg',
         bio: `Emmanuel is a dedicated educator with a passion for empowering individuals through knowledge. As the Head of Education & Training, he designs and implements comprehensive training programs that equip our team and clients with the skills needed to excel in the investment landscape. His commitment to continuous learning ensures that we stay ahead in a rapidly evolving market.`,
+    },
+    {
+        id: 6,
+        name: 'Tadiwa Peter Chigora',
+        title: 'Chief Marketing Officer',
+        specialization: 'Marketing & Communications',
+        image: '/images/team/tadiwa.jpg',
+        bio: `A seasoned marketing professional with a passion for storytelling, Tadiwa spearheads our marketing efforts. He is a data-driven marketer with a keen eye for detail and a deep understanding of the investment landscape. By leveraging his expertise in digital marketing, branding, and communications, Tadiwa helps us build strong relationships with our clients and stakeholders.`
     },
 ];
 
