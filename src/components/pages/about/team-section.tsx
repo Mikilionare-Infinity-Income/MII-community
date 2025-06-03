@@ -40,7 +40,7 @@ const teamMembers: TeamMember[] = [
     },
     {
         id: 4,
-        name: 'Morris',
+        name: 'Morris Sibanda',
         title: 'Chief Financial Officer',
         specialization: 'Financial Management',
         image: '/images/team/morris.jpg',
