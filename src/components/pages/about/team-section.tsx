@@ -35,7 +35,7 @@ const teamMembers: TeamMember[] = [
         name: 'Clint Tadiwanashe Muchabveyo',
         title: 'Project Manager',
         specialization: 'Project Management',
-        image: '/images/team/clint.jpeg',
+        image: '/images/team/clint.jpg',
         bio: `A seasoned project manager currently studying Civil Engineering, Clint brings a wealth of experience in managing complex projects. His expertise lies in coordinating teams, ensuring timely delivery, and maintaining high standards of quality. With a keen eye for detail and a proactive approach, Clint is instrumental in driving our projects to successful completion.`,
     },
     {
@@ -44,7 +44,8 @@ const teamMembers: TeamMember[] = [
         title: 'Chief Financial Officer',
         specialization: 'Financial Management',
         image: '/images/team/morris.jpg',
-        bio: `Morris is a financial expert with a strong background in investment management. As the Chief Financial Officer, he oversees our financial operations, ensuring that we maintain a healthy balance sheet and make sound investment decisions. His analytical skills and strategic thinking are key to our financial success, allowing us to navigate the complexities of the investment landscape with confidence.`,},
+        bio: `Morris is a financial expert with a strong background in investment management. As the Chief Financial Officer, he oversees our financial operations, ensuring that we maintain a healthy balance sheet and make sound investment decisions. His analytical skills and strategic thinking are key to our financial success, allowing us to navigate the complexities of the investment landscape with confidence.`,
+    },
     {
         id: 5,
         name: 'Emmanuel Da Graça Joaquim Dique',
