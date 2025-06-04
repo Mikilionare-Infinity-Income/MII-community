@@ -22,14 +22,14 @@ const teamMembers: TeamMember[] = [
         image: '/images/team/mike.jpg',
         bio: `Mike is the visionary behind our firm, driving our mission to empower individuals through investment education and opportunities. With a background in finance and a passion for technology, he leads our strategic direction and ensures we remain at the forefront of the investment landscape. Mike's leadership is characterized by his commitment to innovation, integrity, and excellence.`,
     },
-    {
-        id: 2,
-        name: 'Kin Leon Zinzombe',
-        title: 'Chief Technology Officer & Chief Operations Officer',
-        specialization: 'Technology & Operations',
-        image: '/images/team/kin.jpg',
-        bio: `Kin, a seasoned software engineer with a passion for technology`,
-    },
+    // {
+    //     id: 2,
+    //     name: 'Kin Leon Zinzombe',
+    //     title: 'Chief Technology Officer & Chief Operations Officer',
+    //     specialization: 'Technology & Operations',
+    //     image: '/images/team/kin.jpg',
+    //     bio: `Kin, a seasoned software engineer with a passion for technology`,
+    // },
     {
         id: 3,
         name: 'Clint Tadiwanashe Muchabveyo',
