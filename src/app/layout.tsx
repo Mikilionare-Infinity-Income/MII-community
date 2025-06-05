@@ -63,6 +63,7 @@ export const metadata: Metadata = {
       "Strategic capital investments in Zimbabwe and beyond – real estate, equity, and sustainable growth.",
     images: ["/og-image.png"],
   },
+  applicationName: "Mikilionaire Infinity Income",
 };
 
 export default function RootLayout({
@@ -72,6 +73,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
+      <head>
+        <meta name="apple-mobile-web-app-title" content="Mikilionaire" />
+      </head>
       <body className={`antialiased bg-white text-black`}>
         <Navbar />
         {children}
