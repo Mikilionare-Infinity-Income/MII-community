@@ -7,9 +7,9 @@ import Image from 'next/image';
 
 export function VisionQuote() {
   return (
-    <section className="w-full py-20">
-      <div className="container px-4 md:px-6">
-        <div className="flex flex-col lg:flex-row items-center gap-12">
+    <section className="w-full py-20 flex flex-col justify-center items-center">
+      <div className="container px-4 md:px-6 flex flex-col justify-center items-center">
+        <div className="flex flex-col lg:flex-row justify-center items-center gap-12">
           {/* Founder Image */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
@@ -36,13 +36,13 @@ export function VisionQuote() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
             viewport={{ once: true }}
-            className="w-full lg:w-2/3 space-y-8"
+            className="w-full lg:w-2/3 space-y-8 sm:text-center lg:text-left"
           >
-            <blockquote className="text-2xl md:text-3xl font-light leading-relaxed text-[#0B1D26] [font-family:var(--font-playfair)]">
-                "Your dreams are worth dreaming, we can help you realize them. At Mikilionaire Infinity Income, we believe in the power of financial freedom and the potential of every individual to achieve greatness. Join us on this journey to transform your financial future."
+            <blockquote className="text-2xl md:text-3xl sm:text-center lg:text-left font-light leading-relaxed text-[#0B1D26] [font-family:var(--font-playfair)]">
+              "Your dreams are worth dreaming, we can help you realize them. At Mikilionaire Infinity Income, we believe in the power of financial freedom and the potential of every individual to achieve greatness. Join us on this journey to transform your financial future."
             </blockquote>
 
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 sm:justify-center sm:items-center lg:justify-start lg:items-start">
               <Button
                 asChild
                 size="lg"
