@@ -4,8 +4,8 @@ import { Card } from '@/components/ui/card';
 
 export function ContactInfo() {
     return (
-        <section className="w-full py-20 bg-white">
-            <div className="container px-4 md:px-6">
+        <section className="w-full py-20 bg-white flex flex-col justify-center items-center">
+            <div className="container px-4 md:px-6 flex flex-col justify-center items-center">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                     {[
                         {
